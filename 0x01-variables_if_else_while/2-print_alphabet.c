@@ -16,7 +16,7 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		puthchar (c);
+		putchar (c);
 		if (c == 'z')
 			putchar('\n');
 	}
