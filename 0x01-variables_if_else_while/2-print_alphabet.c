@@ -3,12 +3,12 @@
 
 
 /**
- * main - Entry point of the program
- *
- * Description - displays all lowercase alphabet characters
- *
- * Return: 0 (success)
-*/
+  * main - Entry point of the program
+  *
+  * Description - Executes the program
+  *
+  * Return: 0 (Success)
+  */
 
 int main(void)
 {
@@ -17,8 +17,9 @@ int main(void)
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		putchar (c);
+		if (c == 'z')
+			putchar('\n');
 	}
 
-	putchar('\n');
 	return (0);
 }
