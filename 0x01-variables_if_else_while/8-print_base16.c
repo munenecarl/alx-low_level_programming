@@ -10,9 +10,10 @@
 
 int main(void)
 {
-	char c, k;
+	int c;
+	char k;
 
-	for (c = '0'; c <= 'f'; c++)
+	for (c = 0; c <= 15; c++)
 	{
 		if (c == 9)
 		{
