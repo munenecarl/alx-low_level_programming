@@ -13,17 +13,10 @@ int main(void)
 	char c;
 	char k;
 
-	for (c = '0'; c <= '15'; c++)
-	{
-		if (c >= '10')
-		{
-			for (k = 'a'; k <= 'f'; k++)
-				putchar(k);
-			break;
-		}
+	for (c = 0; c <= 9; c++)
 		putchar(c);
-	}
-	putchar('\n');
+	for (k = 'a'; k <= 'f'; k++)
+		putchar(k);
 
 	return (0);
 }
