@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	int c;
+	char c;
 	char k;
 
-	for (c = 0; c <= 15; c++)
+	for (c = '0'; c <= '15'; c++)
 	{
-		if (c == 9)
+		if (c >= '10')
 		{
 			for (k = 'a'; k <= 'f'; k++)
 				putchar(k);
