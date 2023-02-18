@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Definition - program to print all possible combinations of single-digit numbers
+ * Definition - program to print all possible combinations of single numbers
  *
  * Return: 0 (success)
 */
