@@ -10,16 +10,31 @@
 
 int main(void)
 {
-	int i;
+	int i,k;
 
-	for (i = 0; i < 100; i++)
+	while (i <= '9')
 	{
-		putchar((i / 10) + '0');
-		putchar((i % 10) + '0');
-		putchar(',');
-		putchar(' ');
+		while (k <= '9')
+		{
+			if (!(i > k || i == k))
+			{
+				putchar(i);
+				putchar(k);
+				if (i == '8' && k == '9')
+				{
+					putchar('\n');
+				}
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			k++;
+		}
+		k = '0';
+		i++;
 	}
-	putchar('\n');
 
 	return (0);
 }
