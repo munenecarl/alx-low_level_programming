@@ -2,7 +2,7 @@
 
 /**
  * void times_table - prints the 9 times
- * 
+ *
  * Return: void
 */
 
@@ -13,9 +13,10 @@ void times_table(void)
 	for (j = 1; j <= 9; j++)
 	{
 		for (k = 1; k <= 9; k++){
-			int result = j * k;
+			result = j * k;
+			printf(result);
 		}
 		putchar('\n');
 	}
-	
+
 }
