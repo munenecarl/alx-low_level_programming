@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * 8-24_hours - prints every minute of the day of jack bauer
+ * jack_bauer - prints every minute of the day of Jack Bauer
  *
  * Return: void
+ *
 */
 
 void jack_bauer(void)
