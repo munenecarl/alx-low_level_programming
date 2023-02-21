@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 /**
- * _abs computes the absolute value of an integer
+ * _abs - computes the absolute value of an integer
  *
- * Return: absolute value (int)
+ * @num: integer stores number to be evalutated
+ *
+ * Return: returns absolute number
+ *
 */
 
 int _abs(int num)
