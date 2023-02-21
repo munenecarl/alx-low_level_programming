@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * 2-print_alphaber_x10- function that prints 10 times the alphabet
- *
- * Return: void
+  * print_alphabet_x10 - defines the prototype in mains.h
+  *
+  * Description - prints alphabet 10 times
+  *
+  * Return: void
 */
 
 void print_alphabet_x10(void)
