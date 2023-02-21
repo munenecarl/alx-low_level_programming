@@ -17,13 +17,8 @@ void times_table(void)
 			printf("%d", result);
 			if (k != 9)
 			{
-				printf(", ");
+				printf(" , ");
 			}
-			if (result >= 10)
-			{
-				printf("  ");
-			}
-
 
 		}
 		putchar('\n');
