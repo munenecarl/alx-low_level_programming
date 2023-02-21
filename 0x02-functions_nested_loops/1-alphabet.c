@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
- * 
- * Definition - program to print alphabet in lowercase
- * 
+ * print_alphabet - program to print alphabet in lowercase
+ *
  * Return: 0 (success)
 */
 
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
