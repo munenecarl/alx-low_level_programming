@@ -10,9 +10,8 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
+		printf("+");
 		return (+1);
-		putchar(43 + 0);
-		
 	}
 	else if (n == 0)
 	{
