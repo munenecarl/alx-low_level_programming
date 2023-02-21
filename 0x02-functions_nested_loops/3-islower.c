@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
- *
- * Definition - program to check for lowercase character
- *
- * Return:0 (not lower) or 1(is lower)
+  * _islower - checks if a character is lowercase
+  *
+  * @c: checks the input of the function and is of type character
+  *
+  * Return: 1 if c is lowercase
+  *         0 otherwise
 */
 
 char _islower(char c)
