@@ -8,7 +8,7 @@
  * Return:0 (success)
 */
 
-int main(void)
+void print_alphabet_x10 (void)
 {
 	int counter;
 	char c;
@@ -21,6 +21,4 @@ int main(void)
 		}
 		putchar('\n');
 	}
-
-	return (0);
 }
