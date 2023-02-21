@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 /**
- * _isalpha - checks for alphabetical character
+ *  _isalpha - checks whether a character is an alphabet
  *
- * Return: 1 (alphabetic) or 0 (not alphabetic)
+ *  @c: store the character to check whether it is an alphabet
+ *
+ *  Return:     1 if c is a letter
+ *
 */
-
 char _isalpha(char c)
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
