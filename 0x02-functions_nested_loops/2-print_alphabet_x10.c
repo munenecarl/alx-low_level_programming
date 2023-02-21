@@ -3,7 +3,7 @@
 /**
  * 2-print_alphaber_x10- function that prints 10 times the alphabet
  *
- * Return:0 (success)
+ * Return: void
 */
 
 void print_alphabet_x10(void)
