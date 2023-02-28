@@ -12,11 +12,16 @@ void print_rev(char *s)
 {
 	int i, k, length;
 
-	while (s[i] != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		length++;
-		i++;
 	}
+
+	/*while (s[i] != '\0')*/
+	/*{*/
+		/*length++;*/
+		/*i++;*/
+	/*}*/
 
 	for (k = length - 1; k >= 0; k--)
 	{
