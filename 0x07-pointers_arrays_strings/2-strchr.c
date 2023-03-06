@@ -2,10 +2,10 @@
 
 /**
  * _strchr - locates a charcter in a string
- *
+ * 
  * @c: character to be searched
  * @s: string to search in
- *
+ * 
  * Return: returns pointer to the first occurence of c or null
 */
 
@@ -17,9 +17,9 @@ char *_strchr(char *s, char c)
 	{
 		if (s[i] == c)
 		{
-			return (s);
-		}
+			return (s + i);
+		}		
 	}
-	return (NULL);
-
+	return (0);
+	
 }
