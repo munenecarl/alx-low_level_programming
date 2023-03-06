@@ -2,11 +2,11 @@
 
 /**
  * _strstr - locates a substring
- * 
+ *
  * @needle: substring to look for
  * @haystack: substring to look into
- * 
- * Return: a pointer to the beginning of the located substring 
+ *
+ * Return: a pointer to the beginning of the located substring
 */
 
 char *_strstr(char *haystack, char *needle)
