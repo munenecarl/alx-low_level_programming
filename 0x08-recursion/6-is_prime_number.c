@@ -8,17 +8,19 @@
  * Return: 1 if prime, 0 otherwise
  */
 
-int is_prime_number_tester(int n, int i)
+int is_prime_number_tester(int n, int i, int x)
 {
-	if (i == n / 2)
+	if (x != 0)
 	{
-		return (1);
+		return 1;
 	}
+
 	if (n % i == 0)
 	{
-		return (0);
+		x = 1;
 	}
-	return (is_prime_number_tester(n, i + 2));
+	return (is_prime_number_tester(n, i + 1, x));	
+		
 }
 
 /**
@@ -31,6 +33,7 @@ int is_prime_number_tester(int n, int i)
 
 int is_prime_number(int n)
 {
+
 	if (n < 2)
 	{
 		return (0);
@@ -43,5 +46,5 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (is_prime_number_tester(n, 3));
+	return (is_prime_number_tester(n, 3, 0));
 }
