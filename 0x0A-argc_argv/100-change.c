@@ -4,6 +4,9 @@
 /**
  * main - entry point of the program
  *
+ * @argc: no of arguments passed to main
+ * @argv: array containing arguments passed to main
+ *
  * Return: 1 if successful, 0 if failure
 */
 
