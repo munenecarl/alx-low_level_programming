@@ -12,12 +12,12 @@
 
 int main(int argc, char **argv)
 {
+	int cents, num_coins;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
 	}
-
-	int cents, num_coins;
 
 	cents = atoi(argv[1]);
 

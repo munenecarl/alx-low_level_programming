@@ -10,12 +10,12 @@
 
 int main(int argc, char *argv[])
 {
+	int num1, num2, result;
+	
 	if (argc == 1)
 	{
 		printf("0\n"); 
 	}
-
-	int num1, num2, result;
 
 	if (sscanf(argv[1], "%d", &num1) != 1 || sscanf(argv[2], "%d", &num2 != 1))
 	{
