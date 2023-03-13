@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
 /**
  * isnumber - to find out if number is a digit
@@ -22,8 +23,9 @@ int isnumber(char number[])
 		{
 			return (1);
 		}
-		return (0);
 	}
+
+	return (0);
 
 }
 
@@ -38,7 +40,7 @@ int isnumber(char number[])
 
 int main(int argc, char __attribute__((unused)) *argv[])
 {
-	int i, num1, num2, result;
+	int i, result;
 
 	if (argc == 1)
 	{
