@@ -40,7 +40,7 @@ int isnumber(char number[])
 
 int main(int argc, char __attribute__((unused)) *argv[])
 {
-	int i, result;
+	int i, result = 0;
 
 	if (argc == 1)
 	{
@@ -48,7 +48,7 @@ int main(int argc, char __attribute__((unused)) *argv[])
 	}
 	else
 	{
-		for (i = 1; i < argc - 1; i++)
+		for (i = 1; i < argc ; i++)
 		{
 			if (isnumber(argv[i]) == 0)
 			{
