@@ -1,8 +1,7 @@
 #include <stdlib.h>
 
 /**
- * count - get word count from string
- *             without spaces
+ * count - get word count from string without spaces
  *
  * @str: string to count words present
  *
