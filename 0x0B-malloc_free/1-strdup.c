@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strdump - returns pointer to newly allocated memory of a string copy
+ * _strdup - returns pointer to newly allocated memory of a string copy
  *
  * @str: the string to copy
  *
