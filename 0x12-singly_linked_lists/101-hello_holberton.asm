@@ -1,21 +1,16 @@
-;Program to print hello world in ASM
-
-; nasm -felf64 hallo.asm -ohello
-; ld -ohello hello.o
-
-global start
+global main
 
 section .data
-message: db"Hello, Holberton", 10
+message db 'Hello, Holberton', 10 ; 10 is the ASCII code for newline
 
 section .text
-_start:
-	mov rax, 1
-	mov rdi, 1
-	mov rsi, message
-	mov rdx, 16
-	syscall
+main:
+    mov rax, 1       
+    mov rdi, 1       
+    mov rsi, message 
+    mov rdx, 17      
+    syscall          
 
-	mov rax, 60
-	xor rdi, rdi
-	syscall
+    mov rax, 60      
+    xor rdi, rdi     
+    syscall          
