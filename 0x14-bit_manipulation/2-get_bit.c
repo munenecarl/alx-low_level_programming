@@ -1,10 +1,5 @@
 #include "main.h"
 
-/**
- * get_binary - gets the binary equivalent of an unsigned long int
- * @n: number to convert
- * Return: pointer to converted binary
-*/
 
 /**
  * get_bit - returns the value of a bit at a given index
