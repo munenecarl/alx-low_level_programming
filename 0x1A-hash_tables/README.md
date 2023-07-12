@@ -1,0 +1,1 @@
+This is a project to implement hash tables in C
